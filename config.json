@@ -1,0 +1,17 @@
+{
+  "username": "96111111",
+  "password": "SomePassword",
+  "start_hour": 10,
+  "max_requests_per_course": 5,
+  "courses": [
+    {
+      "course": "37127-6",
+      "units": 2
+    },
+    {
+      "course": "40343-1",
+      "units": 3
+    }
+  ],
+  "request_backoff_sec": 15
+}
