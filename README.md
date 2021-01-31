@@ -1,5 +1,5 @@
 ## Sharif Auto Course Enroller
-This repo contains a python code for automatically taking your courses by solving the captcha and taking the courses you want.
+This repo contains a python code for automatically enrolling you in your courses by solving the captcha and taking the courses you want.
 
 ### Quick Start
 * Install `python 3.x` and the packages in `requirements.txt` using pip.
