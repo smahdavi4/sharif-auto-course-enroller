@@ -61,8 +61,6 @@ class EduClient:
             'accept-encoding': 'gzip, deflate, br',
             'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
             'authorization': self.jwt_auth,
-            'cookie': '_ga=GA1.2.1282642518.1523373000; pushNotification:shownCount:4095=4; io=lF0x6rb1Wn8BKccwAASs',
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
             'content-type': 'application/json',
             'accept': 'application/json',
             'referer': 'https://my.edu.sharif.edu/courses/offered',
