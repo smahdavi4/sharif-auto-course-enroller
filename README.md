@@ -16,4 +16,6 @@ python3 src/main.py --config-path ./config.json --data-path data/captcha_data.np
 ```
 * It will start sending course enrollment request as soon as your registration time comes.
 
-Although this code has been working for a couple of semesters, **It is highly recommended that you take your courses manually while running this code to take them faster.**
+Note 1: Although this code has been working for a couple of semesters, **It is highly recommended that you take your courses manually while running this code to take them faster.**
+
+Note 2: It only sends requests and does not check if the course has been taken. So, you have to do it manually.
