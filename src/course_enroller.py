@@ -88,7 +88,10 @@ class EduClient:
 
 def take_courses(username, password, request_backoff_sec, start_hour, courses, max_requests_per_course):
     start_time = datetime.now().replace(hour=start_hour, minute=0, second=0, microsecond=0)
-    logging.info("Sending requests with start in {} seconds".format((start_time - datetime.now()).total_seconds()))
+
+    if start_time < datetime.now():
+        logging.warning("WARNING: You have set a start_hour in the past.")
+    logging.info("Sending requests will start in {} seconds".format((start_time - datetime.now()).total_seconds()))
 
     edu_client = EduClient(username=username, password=password)
     edu_client.initialize()
